@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tab-holder">
+        <button class="tab active" data-target="tab1">First Tab</button>
+        <button class="tab" data-target="tab2">Second Tab</button>
+        <button class="tab" data-target="tab3">Third Tab</button>
+        <button class="tab" data-target="tab4">Fourth Tab</button>
+    </div>
+    <div class="description">
+        Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default, the content of First Tab should be visible when the page loads.
+    </div>
+    <div class="content">
+        <div id="tab1" class="tab-content active">
+            <p>This is the content for First Tab.</p>
+        </div>
+        <div id="tab2" class="tab-content">
+            <p>This is the content for Second Tab.</p>
+        </div>
+        <div id="tab3" class="tab-content">
+            <p>This is the content for Third Tab.</p>
+        </div>
+        <div id="tab4" class="tab-content">
+            <p>This is the content for Fourth Tab.</p>
+        </div>
+    </div>    
+    <div class="description">
+        Add some dummy content or just add a simple text showing the tab
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
